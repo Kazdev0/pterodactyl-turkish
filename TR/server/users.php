@@ -1,0 +1,33 @@
+<?php
+
+return [
+    'permissions' => [
+        'websocket_*' => 'Bu sunucunun websocket\'e erişimine izin verir.',
+        'control_console' => 'Kullanıcının sunucu konsoluna veri göndermesine izin verir.',
+        'control_start' => 'Kullanıcının sunucu örneğini başlatmasına izin verir.',
+        'control_stop' => 'Kullanıcının sunucu örneğini durdumasına izin verir.',
+        'control_restart' => 'Kullanıcının sunucu örneğini yeniden başlatmasına izin verir.',
+        'control_kill' => 'Kullanıcının sunucu örneğini sonlandırmasına izin verir.',
+        'user_create' => 'Kullanıcının sunucu için yeni kullanıcı hesapları oluşturmasına izin verir.',
+        'user_read' => 'Kullanıcının bu sunucu ile ilişkilendirilmiş kullanıcıları görüntülemesine izin verir.',
+        'user_update' => 'Kullanıcının bu sunucu ile ilişkilendirilmiş diğer kullanıcıları değiştirmesine izin verir.',
+        'user_delete' => 'Kullanıcının bu sunucu ile ilişkilendirilmiş diğer kullanıcıları silmesine izin verir.',
+        'file_create' => 'Kullanıcının yeni dosya ve dizinler oluşturmasına izin verir.',
+        'file_read' => 'Kullanıcının bu sunucu örneği ile ilişkili dosyaları ve klasörleri görmesine ve içeriklerini görmesine izin verir.',
+        'file_update' => 'Kullanıcının sunucu ile ilişkili dosyaları ve klasörleri güncellemesine izin verir.',
+        'file_delete' => 'Kullanıcının dosyaları ve dizinleri silmesine izin verir.',
+        'file_archive' => 'Kullanıcının dosya arşivleri oluşturmasına ve var olan arşivleri açmasına izin verir.',
+        'file_sftp' => 'Kullanıcının bir SFTP istemcisi kullanarak yukarıdaki dosya işlemlerini gerçekleştirmesine izin verir.',
+        'allocation_read' => 'Sunucu tahsis yönetimi sayfalarına erişime izin verir.',
+        'allocation_update' => 'Kullanıcıya sunucunun tahsislerinde değişiklik yapma izni verir.',
+        'database_create' => 'Kullanıcıya sunucu için yeni bir veritabanı oluşturma izni verir.',
+        'database_read' => 'Kullanıcıya sunucu veritabanlarını görüntüleme izni verir.',
+        'database_update' => 'Kullanıcıya bir veritabanında değişiklik yapma izni verir. Kullanıcıya "Şifreyi Görüntüle" izni verilmediyse şifreyi değiştiremez.',
+        'database_delete' => 'Kullanıcıya bir veritabanını silme izni verir.',
+        'database_view_password' => 'Kullanıcıya sistemde bir veritabanı şifresini görüntüleme izni verir.',
+        'schedule_create' => 'Kullanıcıya sunucu için yeni bir zamanlama oluşturma izni verir.',
+        'schedule_read' => 'Kullanıcıya sunucu için zamanlamaları görüntüleme izni verir.',
+        'schedule_update' => 'Kullanıcıya mevcut bir sunucu zamanlamasında değişiklik yapma izni verir.',
+        'schedule_delete' => 'Kullanıcıya sunucu için bir zamanlamayı silme izni verir.',
+    ],
+];
